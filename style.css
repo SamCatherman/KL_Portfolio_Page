@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+  background-color: lemonchiffon;
+}
+
+img{
+  width: auto;
+  height: 400px;
+  border: 1px solid black;
+}

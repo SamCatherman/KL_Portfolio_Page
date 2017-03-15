@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kevin Lambert</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        anchors: [''],
+        scrollingSpeed: 800,
+        slidesNavigation: true
+
+      });
+         });
+    </script>
+  </head>
+  <body>
+<!-- nav bar -->
+    <nav role="navigation" class="navbar navbar-default">
+      <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">KL &copy 2017</a>
+      </div>
+    </nav>
+    <!-- main body - fullpage js -->
+    <div id="fullpage">
+    <!-- section 1 - bio -->
+      <div class="section" id="section1">
+        <!-- header -->
+        <h1>Kevin Lambert</h1>
+        <h4>Musicain, Author</h4>
+      </div>
+      <!-- section 2 - photo slider -->
+      <div class="section" id="section2">
+        <div class="slide">
+          <img src="images/Caribbeat.png" alt="Los Caribbeat">
+        </div>
+        <div class="slide">
+          <img src="images/Kevin.png" alt="Kevin at MX Park">
+        </div>
+        <div class="slide">
+          <img src="images/YungKevin.png" alt="Kevin in Amsterdam">
+        </div>
+        <div class="slide">
+          <img src="images/Recording.png" alt="Kevin Recording">
+        </div>
+      </div>
+      <!-- section3 - music -->
+      <div class="section" id="section3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti optio, iusto consequuntur quis ex iste ut repellat, ipsam. Doloribus commodi quas numquam nesciunt libero vel consequuntur voluptatem dolor ullam repellendus.</p>
+      </div>
+      <!-- section4 - writing -->
+      <div class="section" id="section4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At qui debitis sequi asperiores maxime eos suscipit illum, repudiandae odit quo reiciendis, distinctio soluta eligendi non quaerat, esse magni! Tempore, optio!</p>
+      </div>
+      <!-- section5 - contact -->
+      <div class="section" id="section5">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At qui debitis sequi asperiores maxime eos suscipit illum, repudiandae odit quo reiciendis, distinctio soluta eligendi non quaerat, esse magni! Tempore, optio!</p>
+      </div>
+    </div>
+  </body>
+</html>
