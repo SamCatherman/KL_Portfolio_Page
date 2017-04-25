@@ -1,10 +1,25 @@
-body {
+html body {
   text-align: center;
-  background-color: grey;
+  background-color: DarkSeaGreen;
 }
 
-img{
+img {
   width: auto;
   height: 75%;
   border: 1px solid black;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+#album {
+  font-style: italic;
+}
+
+#section4 {
+  height: 100%;
+  width: 100%;
 }
