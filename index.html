@@ -13,7 +13,7 @@
     <script type="text/javascript">
     $(document).ready(function() {
       $('#fullpage').fullpage({
-        anchors: [''],
+        anchors: ['About', 'Gallery', 'Music', 'Writing', 'News', 'Contact'],
         scrollingSpeed: 800,
         slidesNavigation: true
 
@@ -25,7 +25,17 @@
 <!-- nav bar -->
     <nav role="navigation" class="navbar navbar-default">
       <div class="navbar-header">
-        <a href="#" class="navbar-brand">KL &copy 2017</a>
+        <a href="index.html" class="navbar-brand">KL &copy 2017</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html#Gallery">Gallery</a></li>
+          <li><a href="index.html#Music">Music</a></li>
+          <li><a href="index.html#Writing">Writing</a></li>
+          <li><a href="index.html#News">News</a></li>
+          <li><a href="index.html#Contact">Contact</a></li>
+        </ul>
       </div>
     </nav>
     <!-- main body - fullpage js -->
@@ -37,7 +47,6 @@
         <h4>Musician, Author</h4>
         <p>Washington, DC</p>
         <h4>Under Construction!</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur optio quibusdam distinctio veniam aperiam, dolor saepe ducimus praesentium fugiat. Rem ipsa a impedit voluptate. Eligendi quasi, sint soluta possimus dolore.</p>
       </div>
       <!-- section 2 - photo slider -->
       <div class="section" id="section2">
@@ -79,7 +88,6 @@
       </div>
       <!-- section4 - writing -->
       <div class="section" id="section4">
-        <h2>Writing</h2>
         <div class="slide">
           <embed src="PDFs/Voudoo.pdf" width="800px" height="500px" />
         </div>

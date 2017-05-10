@@ -1,25 +1,27 @@
 html body {
   text-align: center;
-  background-color: DarkSeaGreen;
+  background: #f2f2f2;
 }
 
 img {
   width: auto;
   height: 75%;
-  border: 1px solid black;
 }
 
 ul {
   list-style: none;
 }
 
+h2 {
+  margin: auto;
+  padding: 20px;
+}
 
+.section {
+  height: 75%;
+  margin: 0 auto;
+}
 
 #album {
   font-style: italic;
-}
-
-#section4 {
-  height: 100%;
-  width: 100%;
 }
