@@ -16,8 +16,8 @@
         anchors: ['About', 'Gallery', 'Music', 'Writing', 'News', 'Contact'],
         scrollingSpeed: 800,
         slidesNavigation: true,
-        paddingTop: '2em;',
-        paddingBottom: '3em'
+        paddingTop: '5em;',
+        paddingBottom: '5em'
 
       });
          });
@@ -25,21 +25,23 @@
   </head>
   <body>
 <!-- nav bar -->
-    <nav role="navigation" class="navbar navbar-default">
-      <div class="navbar-header">
+    <div id="header">
+      <nav role="navigation" class="navbar navbar-default">
+        <div class="navbar-header">
         <a href="index.html" class="navbar-brand">KL &copy 2017</a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li><a href="index.html">About</a></li>
-          <li><a href="index.html#Gallery">Gallery</a></li>
-          <li><a href="index.html#Music">Music</a></li>
-          <li><a href="index.html#Writing">Writing</a></li>
-          <li><a href="index.html#News">News</a></li>
-          <li><a href="index.html#Contact">Contact</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#Music">Music</a></li>
+          <li><a href="#Writing">Writing</a></li>
+          <li><a href="#News">News</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </div>
     </nav>
+    </div>
     <!-- main body - fullpage js -->
     <div id="fullpage">
     <!-- section 1 - bio -->
@@ -48,7 +50,25 @@
         <h1>Kevin Lambert</h1>
         <h4>Musician, Author</h4>
         <p>Washington, DC</p>
-        <h4>Under Construction!</h4>
+        <div id="intro">
+          <p>Welcome to my website, and indeed, thanks for the click. Although
+            I've met, interviewed or played music with a certain number of
+            well-known people, I am not famous, and I certainly don't think that
+            this site is going to change anything. I have been a musician,
+            drifter, small-time crook, unskilled laborer, writer and journalist,
+            and since some of my stuff has been either recorded or published, I
+            wanted to create a place to store it all.</p>
+        <p>
+           So, how pretentious are memoirs and samples from someone who doesn't
+           have any tidbits about famous people? I don't know any rules—written
+           or unwritten—that prohibit it, but I can't escape the feeling that it's
+           still kinda cheeky. But, since I have visited about 75 countries,
+           played music on the street, done time, interviewed heads of state,
+           hookers and other writers, a lot of potentially amusing and interesting
+           things couldn't really help happening. It's my job now to write about
+           them, and bring them to life.
+          </p>
+        </div>
       </div>
       <!-- section 2 - photo slider -->
       <div class="section" id="section2">
@@ -198,6 +218,7 @@
             <input type="submit" value="Send me an Email!">
        </form>
       </div>
+      <footer><p>&copy Sam Catherman 2017</p></footer>
     </div>
   </body>
 </html>
